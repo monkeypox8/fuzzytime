@@ -29,7 +29,7 @@ style =
 
   # Misc
   text_align:     "left"
-  text_transform: "uppercase"
+  text_transform: "capitalize"
 
 # Get the current hour as word.
 command: "echo hello"
