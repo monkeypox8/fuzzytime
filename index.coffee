@@ -85,18 +85,18 @@ update: (output, dom) ->
 
 
 style: """
-  top: #{@style.position.top}
-  bottom: #{@style.position.bottom}
-  right: #{@style.position.right}
-  left: #{@style.position.left}
-  width: #{@style.width}
-  font-family: #{@style.font}
-  color: #{@style.font_color}
-  font-weight: #{@style.font_weight}
-  text-align: #{@style.text_align}
-  text-transform: #{@style.text_transform}
-  font-size: #{@style.font_size}
-  letter-spacing: #{@style.letter_spacing}
+  top: #{style.position.top}
+  bottom: #{style.position.bottom}
+  right: #{style.position.right}
+  left: #{style.position.left}
+  width: #{style.width}
+  font-family: #{style.font}
+  color: #{style.font_color}
+  font-weight: #{style.font_weight}
+  text-align: #{style.text_align}
+  text-transform: #{style.text_transform}
+  font-size: #{style.font_size}
+  letter-spacing: #{style.letter_spacing}
   font-smoothing: antialiased
-  line-height: #{@style.line_height}
+  line-height: #{style.line_height}
 """
